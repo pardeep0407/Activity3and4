@@ -30,12 +30,15 @@ public class MainActivity extends AppCompatActivity {
 
     int[] images = {R.drawable.triangle,R.drawable.rectangle};
     ImageView question;
-    Random random_genrator = new Random();;
+    Random random_genrator = new Random();
+    int n = random_genrator.nextInt(2);
+
+
     String particleId;
     String answer = "";
-    private final String PARTICLE_USERNAME = "nm290290@gmail.com";
-    private final String PARTICLE_PASSWORD = "nonsense2";
-    private final String DEVICE_ID = "38001c000f47363333343437";
+    private final String PARTICLE_USERNAME = "pardeepvirk18@gmail.com";
+    private final String PARTICLE_PASSWORD = "Lager@5678";
+    private final String DEVICE_ID = "1c002d001247363333343437";
     TextView ans_text;
     private long subscriptionId;
     private ParticleDevice mDevice;
@@ -43,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if(n==2)
+        {
+                startActivity(new Intent(getApplicationContext(),ActivityTask2.class));
+        }
+
         question = findViewById(R.id.question2);
         ans_text = findViewById(R.id.ans);
         ParticleCloudSDK.init(this.getApplicationContext());

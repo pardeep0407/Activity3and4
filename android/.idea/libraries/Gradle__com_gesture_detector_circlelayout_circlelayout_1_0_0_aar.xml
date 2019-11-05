@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gesture.detector.circlelayout:circlelayout:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/686f6b33f8055cac7ce5d3b8e0cfe884/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/686f6b33f8055cac7ce5d3b8e0cfe884/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gesture.detector.circlelayout/circlelayout/1.0.0/d5ef9af0096b1d27bf5384ad347487d9a253a826/circlelayout-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
