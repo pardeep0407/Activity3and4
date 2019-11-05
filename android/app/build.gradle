@@ -17,6 +17,8 @@ android {
         }
     }
 
+    // Added for Particle - need to include this because it's the minimum
+    // JDK for Android Cloud SDK to work properly.
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -30,6 +32,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.github.ParadiseHell:PianoView:1.1.0'
     // include the Particle Cloud SDK library
     implementation('io.particle:cloudsdk:0.5.1')
 }
